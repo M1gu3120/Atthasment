@@ -62,14 +62,14 @@ echo.
 echo.
 echo           Atajos rapidos al sistemas 
 echo.                                                                                                                         
-echo          1-  serial del equipo                                        24- clic staff
-echo          2-  ISL online cliente                                       25- clic terpel
-echo          3-  Terpel remoto ISL                                        26- intranet
-echo          4-  informaciÛn del sistema Windows y de tu ordenador       27- aris                                  
-echo          5-  Impresoras Terpel                                        28- asistente
-echo          6-  Acceso office365.com                                     29- Delfos
-echo          7-  borrar temporales                                        30- simad
-echo          8-  Abrir Conexiones de Red                                  31- copiar vistas de sap   
+echo          1-  serial del equipo                                        24- 
+echo          2-  ISL online cliente                                       25- 
+echo          3-  Terpel remoto ISL                                        26- 
+echo          4-  informaciÛn del sistema Windows y de tu ordenador        27-                                  
+echo          5-  Impresoras                                               28- 
+echo          6-  Acceso office365.com                                     29- 
+echo          7-  borrar temporales                                        30- 
+echo          8-  Abrir Conexiones de Red                                  31-   
 echo          9-  Administracion de equipos                                
 echo          10- Administrador de tareas
 echo          11- ConfiguraciÛn del sistema
@@ -78,9 +78,9 @@ echo          13- Opciones de internet
 echo          14- centro de redes y recursos compartidos 
 echo          15- Usuarios y grupos locales
 echo          16- Visor de eventos
-echo          17- carpeta Instaladores Terpel Indra sw basico 
-echo          18- carpeta Instaladores Terpel Indra sw extra
-echo          19- carpeta Instaladores Terpel Indra
+echo          17- carpeta Instaladores  
+echo          18- carpeta Instaladores 
+echo          19- carpeta Instaladores 
 echo          20- Reset Configuracion Outlook
 echo          21- Saber * Ip - Mac - Dns*  del Equipo
 echo          22- Version BIOS
@@ -131,7 +131,7 @@ start https://www.islonline.com/es/es/join/
 cls
 goto dashboard
 :dOption3
-start http://10.220.0.75/users/main/join.html
+start 
 cls
 goto dashboard
 :dOption4
@@ -152,15 +152,15 @@ echo.
 echo.
 echo           Impresoras Terpel
 echo.                                                                                                                         
-echo          1- DIR. GRAL  
-echo          2- PLANTA CHIMITA
-echo          3- PLANTA LA MARIA	 
-echo          4- PLANTA MANIZALESr                                 
-echo          5- PLANTA LUBRICANTES
-echo          6- PLANTA NEIVA
-echo          7- OFICINA REG. OCCIDENTE
-echo          8- OFICINA REG. NORTE   
-echo          9- MENU PRINCIPAL  
+echo          1-   
+echo          2- 
+echo          3- 	 
+echo          4-                                  
+echo          5- 
+echo          6- 
+echo          7- 
+echo          8- 
+echo          9-  
 
 set /p pOpt=
 if %pOpt% ==1 goto pOption1
@@ -178,35 +178,35 @@ color 0c
 cls
           REM OPTIONAL PRINTER SCREEN
           :pOption1
-          start \\COLDIRSRVIMP03
+          start \\
           cls
           goto printerMenu
           :pOption2
-          start \\COLBUCSRVIMP03
+          start \\
           cls
           goto printerMenu
           :pOption3
-          start \\COLANTSRVIMP02
+          start \\
           cls
           goto printerMenu
           :pOption4
-          start \\COLCENSRVIMP01
+          start \\
           cls
           goto printerMenu
           :pOption5
-          start \\COLCLUSRVIMP01
+          start \\
           cls
           goto printerMenu
           :pOption6
-          start \\COLSURSRVIMP01
+          start \\
           cls
           goto printerMenu
           :pOption7
-          start \\COLCALSRVIMP02
+          start \\
           cls
           goto printerMenu
           :pOption8
-          start \\COLNORSRVIMP02
+          start \\
           cls
           goto printerMenu
           
@@ -269,16 +269,16 @@ goto dashboard
 cls
 goto dashboard
 :dOption17
-start \\COLDIRSRVBK\instaladores\TERPEL-INDRA\Sw-básico
+start \\
 goto dashboard
 cls
 goto dashboard
 :dOption18
-start \\COLDIRSRVBK\instaladores\TERPEL INDRA\SW extra
+start \\
 goto dashboard
 cls
 :dOption19
-start \\COLDIRSRVBK\instaladores
+start 
 goto dashboard
 cls
 :dOption20
@@ -295,28 +295,28 @@ start /Output:BIOS.txt  BIOS get /all /format:LIST
 start appwiz.cpl
 goto dashboard
 :dOption24
-start https://clic.terpel.com/sde/ clic 
+start  
 goto dashboard
 cls
 :opcion25
-start https://clic.terpel.com/helpdesk/newlogin.asp
+start 
 goto dashboard
 cls}
 :dOption26
-start http://intranet/
+start 
 goto dashboard
 cls
 :dOption27
-start http://10.220.0.215:19990/businesspublisher/login.do?login=anonymous&password=anonymous
+start http://
 goto dashboard
 :opcion28
-start http://colbogsrvbz01/Terpel/
+start http://
 goto dashboard
 :dOption29
-start http://10.250.0.68/qlikview/login.htm
+start http://
 goto dashboard
 :dOption30
-start https://simad.terpel.com/backend.php/security/login
+start https://
 goto dashboard
 PAUSE>NUL
 goto dashboard
@@ -324,20 +324,20 @@ cls
 :dOption31
 start
 :bucle
-if exist "\\COLDIRSRVBK\instaladores\TERPEL INDRA\Common\Common\saplogon.ini" goto :copiar
-if exist "\\COLDIRSRVBK\instaladores\TERPEL INDRA\Common\Common\SapLogonTree.xml" goto :copiar
-if exist "\\COLDIRSRVBK\instaladores\TERPEL INDRA\Common\Common\saprules.xml" goto :copiar
-if exist "\\COLDIRSRVBK\instaladores\TERPEL INDRA\Common\Common\sapshortcut.ini" goto :copiar
-if exist "\\COLDIRSRVBK\instaladores\TERPEL INDRA\Common\Common\SAPUILandscape.xml" goto :copiar
-if exist "\\COLDIRSRVBK\instaladores\TERPEL INDRA\Common\Common\SAPUILandscapeGlobal.xml" goto :copiar
+if exist 
+if exist 
+if exist 
+if exist 
+if exist 
+if exist 
 goto :bucle
 :copiar
-copy "\\COLDIRSRVBK\instaladores\TERPEL INDRA\Common\Common\saplogon.ini" "C:\Users\%username%\AppData\Roaming\SAP\Common"
-copy "\\COLDIRSRVBK\instaladores\TERPEL INDRA\Common\Common\SapLogonTree.xml" "C:\Users\%username%\AppData\Roaming\SAP\Common"
-copy "\\COLDIRSRVBK\instaladores\TERPEL INDRA\Common\Common\saprules.xml" "C:\Users\%username%\AppData\Roaming\SAP\Common"
-copy "\\COLDIRSRVBK\instaladores\TERPEL INDRA\Common\Common\sapshortcut.ini" "C:\Users\%username%\AppData\Roaming\SAP\Common"
-copy "\\COLDIRSRVBK\instaladores\TERPEL INDRA\Common\Common\SAPUILandscape.xml" "C:\Users\%username%\AppData\Roaming\SAP\Common"
-copy "\\COLDIRSRVBK\instaladores\TERPEL INDRA\Common\Common\SAPUILandscapeGlobal.xml" "C:\Users\%username%\AppData\Roaming\SAP\Common"
+copy 
+copy 
+copy 
+copy 
+copy 
+copy 
 echo.
 echo PRESIONE ENTER PARA REGRESAR AL MENU
 pause >nul
