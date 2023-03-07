@@ -64,7 +64,7 @@ echo           Atajos rapidos al sistemas
 echo.                                                                                                                         
 echo          1-  serial del equipo                                        24- 
 echo          2-  ISL online cliente                                       25- 
-echo          3-  Terpel remoto ISL                                        26- 
+echo          3-                                                           26- 
 echo          4-  informaciÛn del sistema Windows y de tu ordenador        27-                                  
 echo          5-  Impresoras                                               28- 
 echo          6-  Acceso office365.com                                     29- 
